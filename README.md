@@ -1,33 +1,43 @@
-# Advent of Code 2024
+# Advent of Code 2024 - Go Solutions
 
-Le projet "Advent of Code" est une série de défis de programmation algorithmique, que j'ai réalisé en Go.
+![Language](https://img.shields.io/badge/Language-Go-00ADD8.svg)
+![Go Version](https://img.shields.io/badge/Go-1.23.3-blue.svg)
+![Event](https://img.shields.io/badge/Advent%20of%20Code-2024-yellow.svg)
 
-**Lien vers le site officiel** : [Advent of Code](https://adventofcode.com/)
+This repository contains my personal solutions for the [Advent of Code 2024](https://adventofcode.com/2024) programming challenges, written in Go (Golang).
 
-## Description
+## 🎄 About Advent of Code
 
-Advent of Code est un événement annuel où chaque jour du mois de décembre, un défi de programmation est publié. L'objectif est de résoudre ces problèmes pour s'améliorer en algorithmie et en programmation. Ce projet contient mes solutions aux défis de l'année 2024, réalisées en Go.
+Advent of Code (AoC) is an annual event featuring a series of daily algorithmic puzzles released every day from December 1st to the 25th. It's a fun and popular way to sharpen programming and problem-solving skills.
 
-## Technologies
+This project documents my journey through the 2024 challenges, implemented in Go.
 
-- **Langage** : Go (Golang)
-- **Version de Go** : 1.23.3
+## 🛠️ Technology Used
 
-## Installation
+* **Language:** Go (Golang)
+* **Go Version:** 1.23.3
 
-### Prérequis
+## 🚀 Getting Started
 
-- Go installé sur votre machine. Vous pouvez télécharger et installer Go depuis [le site officiel](https://golang.org/dl/).
+### Prerequisites
 
-### Cloner le projet
+To run these solutions, you must have the Go toolchain installed on your machine.
+* You can download and install Go from the [official website](https://golang.org/dl/).
+
+### Installation
+
+1.  Clone this repository to your local machine:
+    ```bash
+    git clone https://github.com/Erwann-RAMBEAUX/Advent-of-code.git
+    cd Advent-of-code
+    ```
+
+### Running a Solution
+
+The solutions are organized into directories by year and day (e.g., `2024/j1/`).
+
+To execute the solution for a specific day, use the `go run` command, replacing `j` with the appropriate day (e.g., `j1`, `j12`):
 
 ```bash
-git clone https://github.com/Erwann-RAMBEAUX/Advent-of-code.git
-cd advent-of-code
-```
-### Executer les solutions
-Les solutions des différents jours sont organisées dans des dossiers, chaque jour correspondant à un défi. Vous pouvez exécuter chaque solution avec la commande suivante :
-
-```bash
-go run 2024/jxx/jxx.go
-```
+# Example for running Day 1
+go run 2024/j1/j1.go
